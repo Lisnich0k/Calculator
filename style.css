@@ -21,3 +21,50 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+body {
+    background: linear-gradient(73deg, #144B89, 40%, #E91C5D);
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.calculator {
+    width: 553px;
+    height: 840px;
+    background-color: black;
+    margin: 56px auto;
+    padding-left: 36px;
+    padding-right: 36px;
+    border-radius: 30px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.display {
+    color: white;
+    font-size: 80px;
+    padding-top: 108px;
+    text-align: end;
+}
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+}
+.button {
+    border: none;
+    color: white;
+    border-radius: 30px;
+    font-size: 40px;
+    background-color: #403434;
+    width: 94px;
+    height: 94px;
+    margin: 13px;
+}
+.zero-btn {
+    width: 214px;
+    height: 93px;
+}
+.btn-grey {
+    background-color: #5E4D4D;
+}
+.btn-orange {
+    background-color: #F28B16;
+}
